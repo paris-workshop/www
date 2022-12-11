@@ -1,0 +1,11 @@
+{% set page_title = "Keynotes" %}
+{% extends "base.html" %}
+{% block content %}
+
+<!-- Speakers -->
+{{ components.section("Speakers") }}
+<div class="speakers">
+  {{ components.speakergroup(speakers) }}
+</div>
+
+{% endblock %}

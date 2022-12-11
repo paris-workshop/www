@@ -1,0 +1,8 @@
+{% set page_title = previous.title %}
+{% extends "base.html" %}
+
+{% block content %}
+
+{{ previous | markdown }}
+
+{% endblock %}

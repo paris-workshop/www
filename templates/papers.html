@@ -1,0 +1,93 @@
+{% set active_page = "Submissions" %}
+{% set page_title = "Accepted Submissions" %}
+
+{% extends "base.html" %}
+{% block head %}
+{{ super() }}
+<script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.4.0/dist/umd/popper.min.js"></script>
+<script src="https://cdn.jsdelivr.net/npm/tippy.js@6/dist/tippy-bundle.umd.min.js"></script>
+
+<script src="static/js/modules/icons.js"></script>
+<script src="https://cdn.jsdelivr.net/npm/js-cookie@2/src/js.cookie.min.js"></script>
+
+{% endblock %}
+
+{% block content %}
+<div class="row p-3"></div>
+
+<!-- Session -->
+<div class="row d-none session_notice">
+  <div
+    class="alert alert-warning alert-dismissible fade show col-12"
+    role="alert"
+  >
+    Showing papers for
+    <span id="session_name" style="font-weight: bold;"></span>.
+    <button
+      type="button"
+      class="close remove_session"
+      data-dismiss="alert"
+      aria-label="Close"
+    >
+      <span aria-hidden="true">&times;</span>
+    </button>
+  </div>
+</div>
+
+<!-- Buttons -->
+<div class="row">
+
+
+    <div class="float-right">
+      <div
+        class="btn-group btn-group-toggle render_option"
+        data-toggle="buttons"
+      >
+        <label class="btn btn-outline-secondary active">
+          <input type="radio" name="options" value="mini" autocomplete="off" checked/>
+          hide details
+        </label>
+        <label class="btn btn-outline-secondary">
+          <input
+            type="radio"
+            name="options"
+            value="detail"
+            autocomplete="off"
+          />
+          show details
+        </label>
+      </div>
+    </div>
+</div>
+
+<!-- Cards -->
+<div class="cards row"></div>
+<script src="static/js/modules/urlParams.js"></script>
+<script src="static/js/modules/typeaheadSetup.js"></script>
+<script src="static/js/modules/lazyLoad.js"></script>
+<script src="static/js/data/persistor.js"></script>
+<script src="static/js/data/wrangle.js"></script>
+<script src="static/js/views/papers.js"></script>
+<script>
+  $(document).ready(function () {
+    tippy("[data-tippy-content]", { trigger: "mouseenter focus" });
+    start();
+  });
+</script>
+
+{% endblock %}
+
+{% block footer %}
+
+<div
+  class="gdpr bg-dark text-light"
+  style="padding: 10pt; position: fixed; bottom: 0; display: none;"
+>
+  We use cookies to store which papers have been visited.
+  <div class="gdpr-btn btn btn-sm btn-info" style="margin-left: 15pt;">
+    I agree
+  </div>
+</div>
+<script src="static/js/modules/gdprCookies.js"></script>
+
+{% endblock %}

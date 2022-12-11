@@ -1,0 +1,9 @@
+{% set active_page = "Schedule" %}
+{% set page_title = "Schedule" %}
+{% extends "base.html" %}
+
+{% block content %}
+
+{{ schedule | markdown }}
+
+{% endblock %}

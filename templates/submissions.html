@@ -1,0 +1,17 @@
+{% set page_title = "Submissions" %}
+{% extends "base.html" %}
+
+
+{% block content %}
+
+<!-- papers -->
+{{ components.section("Accepted Submissions") }}
+<div class="speakers">
+  {{ components.papersgroup(papers) }}
+</div>
+
+<!-- Call for Papers -->
+{{ components.section("Call for Papers")}}
+{{ cfp | markdown }}
+
+{% endblock %}

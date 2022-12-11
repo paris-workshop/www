@@ -1,0 +1,9 @@
+{% set active_page = "Dates" %}
+{% set page_title = "Important Dates" %}
+{% extends "base.html" %}
+
+{% block content %}
+
+{{ dates | markdown }}
+
+{% endblock %}
