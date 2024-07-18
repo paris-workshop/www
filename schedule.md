@@ -25,7 +25,7 @@
 
 <tr>
 <td>9:15-10.10 am </td>
-<td>Invited Talk # 1</td>
+<td>Invited Talk # 1: Personalized Generation: Research Challenges & Opportunities</td>
 <td>Michael Bendersky</td>
 </tr>
 
@@ -37,14 +37,14 @@
 
 <tr>
 <td>10:30 - 11:25 am</td>
-<td>Invited Talk # 2</td>
+<td>Invited Talk # 2: Toward Interpretable Information Access Systems</td>
 <td>Negin Rahimi</td>
 </tr>
 
 
 <tr>
 <td>11:30 - 12:25 pm</td>
-<td>Invited Talk # 3</td>
+<td>Invited Talk # 3: Interactive Language Agents: Training, Evaluation, and Interface</td>
 <td>Alane Suhr</td>
 </tr>
 
@@ -56,8 +56,8 @@
 
 <tr>
 <td>1:00 - 1:40 pm</td>
-<td>Invited Talk # 4</td>
-<td>Anne, Netflix</td>
+<td>Invited Talk # 4: More Like This…how? Combining engagement and semantic signals for recommending similar titles at Netflix</td>
+<td>Anne Cocos, Netflix</td>
 </tr>
 
 
@@ -69,15 +69,15 @@
 
 <tr>
 <td>1:50 - 2:20 pm</td>
-<td>Invited Talk # 5</td>
+<td>Invited Talk # 5: Task-aware personalization in eCommerce search and recommendations</td>
 <td>Surya Kallumad</td>
 </tr>
 
 
 <tr>
 <td>2:20 - 2:50 pm</td>
-<td>Invited Talk # 6</td>
-<td>Instacart</td>
+<td>Invited Talk # 6: Improving Relevance and Product Discoverability in Grocery search results</td>
+<td>Tejaswi Tenneti (Instacart)</td>
 </tr>
 
 <tr>
@@ -94,8 +94,8 @@
 
 <tr>
 <td>4:00 - 5:00 pm</td>
-<td>Panel Discussion</td>
-<td>-</td>
+<td>Panel Discussion: The Role of Generative AI in Revolutionizing Personalization, Recommendations, and Search</td>
+<td>Paul Bennet, Michael Bendersky, Sudarshan Lamkhede, Hamed Zamani</td>
 </tr>
 
 
