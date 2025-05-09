@@ -1,310 +1,310 @@
 
 
 
-<!DOCTYPE html>
-<html lang="en">
-<head>
-    
-    <!-- Required meta tags -->
-    <meta charset="utf-8"/>
-    <meta name="image" property="og:image" content="static/images/PaRiS.png">
-    <meta name="title" property="og:title" content="Workshop on Personalization and Recommendations in Search (PaRiS)">
-    <meta
-            name="viewport"
-            content="width=device-width, initial-scale=1, shrink-to-fit=no"
-    />
+<!--<!DOCTYPE html>-->
+<!--<html lang="en">-->
+<!--<head>-->
+<!--    -->
+<!--    &lt;!&ndash; Required meta tags &ndash;&gt;-->
+<!--    <meta charset="utf-8"/>-->
+<!--    <meta name="image" property="og:image" content="static/images/PaRiS.png">-->
+<!--    <meta name="title" property="og:title" content="Workshop on Personalization and Recommendations in Search (PaRiS)">-->
+<!--    <meta-->
+<!--            name="viewport"-->
+<!--            content="width=device-width, initial-scale=1, shrink-to-fit=no"-->
+<!--    />-->
 
-    <!-- External Javascript libs_ext  -->
-    <script src="https://cdn.jsdelivr.net/npm/d3@5/dist/d3.min.js"></script>
+<!--    &lt;!&ndash; External Javascript libs_ext  &ndash;&gt;-->
+<!--    <script src="https://cdn.jsdelivr.net/npm/d3@5/dist/d3.min.js"></script>-->
 
-    <script src="https://cdn.jsdelivr.net/npm/handlebars@4.7.3/dist/handlebars.min.js"
-            integrity="sha256-/PJBs6QWvXijOFIX04kZpLb6ZtSQckdOIavLWKKOgXU="
-            crossorigin="anonymous"></script>
+<!--    <script src="https://cdn.jsdelivr.net/npm/handlebars@4.7.3/dist/handlebars.min.js"-->
+<!--            integrity="sha256-/PJBs6QWvXijOFIX04kZpLb6ZtSQckdOIavLWKKOgXU="-->
+<!--            crossorigin="anonymous"></script>-->
 
-    <script src="https://cdn.jsdelivr.net/npm/jquery@3.4.1/dist/jquery.min.js"
-            integrity="sha256-CSXorXvZcTkaix6Yvo6HppcZGetbYMGWSFlBw8HfCJo="
-            crossorigin="anonymous"></script>
+<!--    <script src="https://cdn.jsdelivr.net/npm/jquery@3.4.1/dist/jquery.min.js"-->
+<!--            integrity="sha256-CSXorXvZcTkaix6Yvo6HppcZGetbYMGWSFlBw8HfCJo="-->
+<!--            crossorigin="anonymous"></script>-->
 
-    <script
-            src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js"
-            integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo"
-            crossorigin="anonymous"
-    ></script>
+<!--    <script-->
+<!--            src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js"-->
+<!--            integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo"-->
+<!--            crossorigin="anonymous"-->
+<!--    ></script>-->
 
-    <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.4.1/dist/js/bootstrap.min.js"
-            integrity="sha256-WqU1JavFxSAMcLP2WIOI+GB2zWmShMI82mTpLDcqFUg="
-            crossorigin="anonymous"></script>
+<!--    <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.4.1/dist/js/bootstrap.min.js"-->
+<!--            integrity="sha256-WqU1JavFxSAMcLP2WIOI+GB2zWmShMI82mTpLDcqFUg="-->
+<!--            crossorigin="anonymous"></script>-->
 
-    <script src="https://cdn.jsdelivr.net/npm/moment@2.24.0/min/moment.min.js"
-            integrity="sha256-4iQZ6BVL4qNKlQ27TExEhBN1HFPvAvAMbFavKKosSWQ="
-            crossorigin="anonymous"></script>
+<!--    <script src="https://cdn.jsdelivr.net/npm/moment@2.24.0/min/moment.min.js"-->
+<!--            integrity="sha256-4iQZ6BVL4qNKlQ27TExEhBN1HFPvAvAMbFavKKosSWQ="-->
+<!--            crossorigin="anonymous"></script>-->
 
-    <script src="https://cdn.jsdelivr.net/npm/moment-timezone@0.5.28/builds/moment-timezone-with-data.min.js"
-            integrity="sha256-IWYg4uIC8/erItNXYvLtyYHioRi2zT1TFva8qaAU/ww="
-            crossorigin="anonymous"></script>
-
-
-    <!-- Library libs_ext -->
-    <script src="static/js/libs_ext/typeahead.bundle.js"></script>
+<!--    <script src="https://cdn.jsdelivr.net/npm/moment-timezone@0.5.28/builds/moment-timezone-with-data.min.js"-->
+<!--            integrity="sha256-IWYg4uIC8/erItNXYvLtyYHioRi2zT1TFva8qaAU/ww="-->
+<!--            crossorigin="anonymous"></script>-->
 
 
-    <!--    Internal Libs -->
-    <script src="static/js/data/api.js"></script>
-
-    
-
-    <!-- External CSS -->
-    <link rel="stylesheet"
-          href="https://cdn.jsdelivr.net/npm/bootstrap@4.3.1/dist/css/bootstrap.min.css"
-          integrity="sha256-YLGeXaapI0/5IgZopewRJcFXomhRMlYYjugPLSyNjTY="
-          crossorigin="anonymous">
-
-    <!-- External Fonts (no google for china) -->
-    <link
-            href="static/css/Lato.css"
-            rel="stylesheet"
-    />
-    <link href="static/css/Exo.css" rel="stylesheet"/>
-    <link
-            href="static/css/Cuprum.css"
-            rel="stylesheet"
-    />
-    <link rel="stylesheet" href="static/css/main.css"/>
-<!--    <link rel="stylesheet" href="static/css/fa_regular.css"/>-->
-    <link rel="stylesheet" href="static/css/fa_solid.css"/>
-    <link rel="stylesheet" href="static/css/lazy_load.css"/>
-    <link rel="stylesheet" href="static/css/typeahead.css"/>
-
-    <title>PaRiS 2024: Schedule</title>
-    
-</head>
-
-<body>
-<!-- NAV -->
-
-<nav
-        class="navbar sticky-top navbar-expand-lg navbar-light bg-light mr-auto"
-        id="main-nav"
->
-    <div class="container">
-        <a class="navbar-brand" href="index.html">
-            <img
-                    class="logo" src="static/images/PaRiS.png"
-                    height="auto"
-            width="180px"
-            />
-        </a>
-        
-        <button
-                class="navbar-toggler"
-                type="button"
-                data-toggle="collapse"
-                data-target="#navbarNav"
-                aria-controls="navbarNav"
-                aria-expanded="false"
-                aria-label="Toggle navigation"
-        >
-            <span class="navbar-toggler-icon"></span>
-        </button>
-        <div
-                class="collapse navbar-collapse text-right flex-grow-1"
-                id="navbarNav"
-        >
-            <ul class="navbar-nav ml-auto">
-                
-                <li class="nav-item ">
-                    <a class="nav-link" href="index.html">Home</a>
-                </li>
-                
-                <li class="nav-item ">
-                    <a class="nav-link" href="dates.html">Dates</a>
-                </li>
-                
-                <li class="nav-item active">
-                    <a class="nav-link" href="schedule.html">Schedule</a>
-                </li>
-                
-                <li class="nav-item ">
-                    <a class="nav-link" href="submissions.html">Submissions</a>
-                </li>
-                
-                <li class="nav-item ">
-                    <a class="nav-link" href="keynotes.html">Keynotes</a>
-                </li>
-                
-                <li class="nav-item ">
-                    <a class="nav-link" href="previous.html">Previous Years</a>
-                </li>
-                
-            </ul>
-        </div>
-    </div>
-</nav>
+<!--    &lt;!&ndash; Library libs_ext &ndash;&gt;-->
+<!--    <script src="static/js/libs_ext/typeahead.bundle.js"></script>-->
 
 
+<!--    &lt;!&ndash;    Internal Libs &ndash;&gt;-->
+<!--    <script src="static/js/data/api.js"></script>-->
 
-<!-- User Overrides -->
- 
+<!--    -->
 
-<div class="container">
-    <!-- Tabs -->
-    <div class="tabs">
-         
-    </div>
-    <!-- Content -->
-    <div class="content">
-        
+<!--    &lt;!&ndash; External CSS &ndash;&gt;-->
+<!--    <link rel="stylesheet"-->
+<!--          href="https://cdn.jsdelivr.net/npm/bootstrap@4.3.1/dist/css/bootstrap.min.css"-->
+<!--          integrity="sha256-YLGeXaapI0/5IgZopewRJcFXomhRMlYYjugPLSyNjTY="-->
+<!--          crossorigin="anonymous">-->
 
-<h1>Tentative Event Schedule</h1>
-<div class="container">
-<style>
-.schedule {
-    border-spacing: 20px;
-}
-.thtd {
-    padding: 20px
-}
-</style>
+<!--    &lt;!&ndash; External Fonts (no google for china) &ndash;&gt;-->
+<!--    <link-->
+<!--            href="static/css/Lato.css"-->
+<!--            rel="stylesheet"-->
+<!--    />-->
+<!--    <link href="static/css/Exo.css" rel="stylesheet"/>-->
+<!--    <link-->
+<!--            href="static/css/Cuprum.css"-->
+<!--            rel="stylesheet"-->
+<!--    />-->
+<!--    <link rel="stylesheet" href="static/css/main.css"/>-->
+<!--&lt;!&ndash;    <link rel="stylesheet" href="static/css/fa_regular.css"/>&ndash;&gt;-->
+<!--    <link rel="stylesheet" href="static/css/fa_solid.css"/>-->
+<!--    <link rel="stylesheet" href="static/css/lazy_load.css"/>-->
+<!--    <link rel="stylesheet" href="static/css/typeahead.css"/>-->
 
-<table class="schedule">
+<!--    <title>PaRiS 2024: Schedule</title>-->
+<!--    -->
+<!--</head>-->
 
-<tr>
-<td class="thtd"><h4>Time (in EDT)</h4></td>
-<td class="thtd"><h4>Session</h4></td>
-<td class="thtd"><h4>Speakers</h4></td>
-</tr>
+<!--<body>-->
+<!--&lt;!&ndash; NAV &ndash;&gt;-->
 
-<tr>
-<td>9:00-9:15 am</td>
-<td>Introduction</td>
-<td>Organizers</td>
-</tr>
-
-<tr>
-<td>9:15-10.10 am </td>
-<td>Invited Talk # 1: Personalized Generation: Research Challenges & Opportunities</td>
-<td>Michael Bendersky</td>
-</tr>
-
-<tr>
-<td>10:10 - 10:30 am</td>
-<td>Break</td>
-<td>-</td>
-</tr>
-
-<tr>
-<td>10:30 - 11:25 am</td>
-<td>Invited Talk # 2: Toward Interpretable Information Access Systems</td>
-<td>Negin Rahimi</td>
-</tr>
-
-
-<tr>
-<td>11:30 - 12:25 pm</td>
-<td>Invited Talk # 3: Interactive Language Agents: Training, Evaluation, and Interface</td>
-<td>Alane Suhr</td>
-</tr>
-
-<tr>
-<td>12:25 - 1:00 pm</td>
-<td>Lunch</td>
-<td>-</td>
-</tr>
-
-<tr>
-<td>1:30 - 2:00 pm</td>
-<td>Invited Talk # 4: More Like This…how? Combining engagement and semantic signals for recommending similar titles at Netflix</td>
-<td>Anne Cocos, Netflix</td>
-</tr>
-
-<tr>
-<td>2:00 - 2:45 pm</td>
-<td>Invited Talk # 5: Task-aware personalization in eCommerce search and recommendations</td>
-<td>Surya Kallumad</td>
-</tr>
-
-
-<tr>
-<td>2:45 - 3:15 pm</td>
-<td>Invited Talk # 6: Improving Relevance and Product Discoverability in Grocery search results</td>
-<td>Tejaswi Tenneti (Instacart)</td>
-</tr>
-
-<tr>
-<td>3:15 - 3:30pm</td>
-<td>Break</td>
-<td>-</td>
-</tr>
-
-<tr>
-<td>3:30-4pm</td>
-<td>Paper Presentations</td>
-<td>Authors</td>
-</tr>
-
-<tr>
-<td>4:00 - 4:50 pm</td>
-<td>Panel Discussion: The Role of Generative AI in Revolutionizing Personalization, Recommendations, and Search</td>
-<td>Paul Bennet, Michael Bendersky, Sudarshan Lamkhede, Hamed Zamani</td>
-</tr>
-
-<tr>
-<td>4:50 - 5:00pm</td>
-<td>Closing Remarks</td>
-<td>Organizers</td>
-</tr>
-
-</table>
-</div>
-
-
-    </div>
-</div>
+<!--<nav-->
+<!--        class="navbar sticky-top navbar-expand-lg navbar-light bg-light mr-auto"-->
+<!--        id="main-nav"-->
+<!--&gt;-->
+<!--    <div class="container">-->
+<!--        <a class="navbar-brand" href="index.html">-->
+<!--            <img-->
+<!--                    class="logo" src="static/images/PaRiS.png"-->
+<!--                    height="auto"-->
+<!--            width="180px"-->
+<!--            />-->
+<!--        </a>-->
+<!--        -->
+<!--        <button-->
+<!--                class="navbar-toggler"-->
+<!--                type="button"-->
+<!--                data-toggle="collapse"-->
+<!--                data-target="#navbarNav"-->
+<!--                aria-controls="navbarNav"-->
+<!--                aria-expanded="false"-->
+<!--                aria-label="Toggle navigation"-->
+<!--        >-->
+<!--            <span class="navbar-toggler-icon"></span>-->
+<!--        </button>-->
+<!--        <div-->
+<!--                class="collapse navbar-collapse text-right flex-grow-1"-->
+<!--                id="navbarNav"-->
+<!--        >-->
+<!--            <ul class="navbar-nav ml-auto">-->
+<!--                -->
+<!--                <li class="nav-item ">-->
+<!--                    <a class="nav-link" href="index.html">Home</a>-->
+<!--                </li>-->
+<!--                -->
+<!--                <li class="nav-item ">-->
+<!--                    <a class="nav-link" href="dates.html">Dates</a>-->
+<!--                </li>-->
+<!--                -->
+<!--                <li class="nav-item active">-->
+<!--                    <a class="nav-link" href="schedule.html">Schedule</a>-->
+<!--                </li>-->
+<!--                -->
+<!--                <li class="nav-item ">-->
+<!--                    <a class="nav-link" href="submissions.html">Submissions</a>-->
+<!--                </li>-->
+<!--                -->
+<!--                <li class="nav-item ">-->
+<!--                    <a class="nav-link" href="keynotes.html">Keynotes</a>-->
+<!--                </li>-->
+<!--                -->
+<!--                <li class="nav-item ">-->
+<!--                    <a class="nav-link" href="previous.html">Previous Years</a>-->
+<!--                </li>-->
+<!--                -->
+<!--            </ul>-->
+<!--        </div>-->
+<!--    </div>-->
+<!--</nav>-->
 
 
 
-<!-- Google Analytics -->
-<script
-        async
-        src="https://www.googletagmanager.com/gtag/js?id=UA-"
-></script>
-<script>
-  window.dataLayer = window.dataLayer || [];
+<!--&lt;!&ndash; User Overrides &ndash;&gt;-->
+<!-- -->
 
-  function gtag() {
-    dataLayer.push(arguments);
-  }
+<!--<div class="container">-->
+<!--    &lt;!&ndash; Tabs &ndash;&gt;-->
+<!--    <div class="tabs">-->
+<!--         -->
+<!--    </div>-->
+<!--    &lt;!&ndash; Content &ndash;&gt;-->
+<!--    <div class="content">-->
+<!--        -->
 
-  gtag("js", new Date());
-  gtag("config", "UA-");
-</script>
+<!--<h1>Tentative Event Schedule</h1>-->
+<!--<div class="container">-->
+<!--<style>-->
+<!--.schedule {-->
+<!--    border-spacing: 20px;-->
+<!--}-->
+<!--.thtd {-->
+<!--    padding: 20px-->
+<!--}-->
+<!--</style>-->
 
-<!-- Footer -->
-<footer class="footer bg-light p-4">
-    <div class="container">
-        <p class="float-right"><a href="#">Back to Top</a></p>
-        <p class="text-center">© 2024 PaRis Organization Committee</p>
-    </div>
-</footer>
+<!--<table class="schedule">-->
 
-<!-- Code for hash tags -->
-<script type="text/javascript">
-  $(document).ready(function () {
-    if (window.location.hash !== "") {
-      $(`a[href="${window.location.hash}"]`).tab("show");
-    }
+<!--<tr>-->
+<!--<td class="thtd"><h4>Time (in EDT)</h4></td>-->
+<!--<td class="thtd"><h4>Session</h4></td>-->
+<!--<td class="thtd"><h4>Speakers</h4></td>-->
+<!--</tr>-->
 
-    $("a[data-toggle='tab']").on("shown.bs.tab", function (e) {
-      const hash = $(e.target).attr("href");
-      if (hash.substr(0, 1) === "#") {
-        const position = $(window).scrollTop();
-        window.location.replace(`#${hash.substr(1)}`);
-        $(window).scrollTop(position);
-      }
-    });
-  });
-</script>
-<!--    <script src="static/js/modules/lazyLoad.js"></script>-->
+<!--<tr>-->
+<!--<td>9:00-9:15 am</td>-->
+<!--<td>Introduction</td>-->
+<!--<td>Organizers</td>-->
+<!--</tr>-->
 
-</body>
-</html>
+<!--<tr>-->
+<!--<td>9:15-10.10 am </td>-->
+<!--<td>Invited Talk # 1: Personalized Generation: Research Challenges & Opportunities</td>-->
+<!--<td>Michael Bendersky</td>-->
+<!--</tr>-->
+
+<!--<tr>-->
+<!--<td>10:10 - 10:30 am</td>-->
+<!--<td>Break</td>-->
+<!--<td>-</td>-->
+<!--</tr>-->
+
+<!--<tr>-->
+<!--<td>10:30 - 11:25 am</td>-->
+<!--<td>Invited Talk # 2: Toward Interpretable Information Access Systems</td>-->
+<!--<td>Negin Rahimi</td>-->
+<!--</tr>-->
+
+
+<!--<tr>-->
+<!--<td>11:30 - 12:25 pm</td>-->
+<!--<td>Invited Talk # 3: Interactive Language Agents: Training, Evaluation, and Interface</td>-->
+<!--<td>Alane Suhr</td>-->
+<!--</tr>-->
+
+<!--<tr>-->
+<!--<td>12:25 - 1:00 pm</td>-->
+<!--<td>Lunch</td>-->
+<!--<td>-</td>-->
+<!--</tr>-->
+
+<!--<tr>-->
+<!--<td>1:30 - 2:00 pm</td>-->
+<!--<td>Invited Talk # 4: More Like This…how? Combining engagement and semantic signals for recommending similar titles at Netflix</td>-->
+<!--<td>Anne Cocos, Netflix</td>-->
+<!--</tr>-->
+
+<!--<tr>-->
+<!--<td>2:00 - 2:45 pm</td>-->
+<!--<td>Invited Talk # 5: Task-aware personalization in eCommerce search and recommendations</td>-->
+<!--<td>Surya Kallumad</td>-->
+<!--</tr>-->
+
+
+<!--<tr>-->
+<!--<td>2:45 - 3:15 pm</td>-->
+<!--<td>Invited Talk # 6: Improving Relevance and Product Discoverability in Grocery search results</td>-->
+<!--<td>Tejaswi Tenneti (Instacart)</td>-->
+<!--</tr>-->
+
+<!--<tr>-->
+<!--<td>3:15 - 3:30pm</td>-->
+<!--<td>Break</td>-->
+<!--<td>-</td>-->
+<!--</tr>-->
+
+<!--<tr>-->
+<!--<td>3:30-4pm</td>-->
+<!--<td>Paper Presentations</td>-->
+<!--<td>Authors</td>-->
+<!--</tr>-->
+
+<!--<tr>-->
+<!--<td>4:00 - 4:50 pm</td>-->
+<!--<td>Panel Discussion: The Role of Generative AI in Revolutionizing Personalization, Recommendations, and Search</td>-->
+<!--<td>Paul Bennet, Michael Bendersky, Sudarshan Lamkhede, Hamed Zamani</td>-->
+<!--</tr>-->
+
+<!--<tr>-->
+<!--<td>4:50 - 5:00pm</td>-->
+<!--<td>Closing Remarks</td>-->
+<!--<td>Organizers</td>-->
+<!--</tr>-->
+
+<!--</table>-->
+<!--</div>-->
+
+
+<!--    </div>-->
+<!--</div>-->
+
+
+
+<!--&lt;!&ndash; Google Analytics &ndash;&gt;-->
+<!--<script-->
+<!--        async-->
+<!--        src="https://www.googletagmanager.com/gtag/js?id=UA-"-->
+<!--&gt;</script>-->
+<!--<script>-->
+<!--  window.dataLayer = window.dataLayer || [];-->
+
+<!--  function gtag() {-->
+<!--    dataLayer.push(arguments);-->
+<!--  }-->
+
+<!--  gtag("js", new Date());-->
+<!--  gtag("config", "UA-");-->
+<!--</script>-->
+
+<!--&lt;!&ndash; Footer &ndash;&gt;-->
+<!--<footer class="footer bg-light p-4">-->
+<!--    <div class="container">-->
+<!--        <p class="float-right"><a href="#">Back to Top</a></p>-->
+<!--        <p class="text-center">© 2024 PaRis Organization Committee</p>-->
+<!--    </div>-->
+<!--</footer>-->
+
+<!--&lt;!&ndash; Code for hash tags &ndash;&gt;-->
+<!--<script type="text/javascript">-->
+<!--  $(document).ready(function () {-->
+<!--    if (window.location.hash !== "") {-->
+<!--      $(`a[href="${window.location.hash}"]`).tab("show");-->
+<!--    }-->
+
+<!--    $("a[data-toggle='tab']").on("shown.bs.tab", function (e) {-->
+<!--      const hash = $(e.target).attr("href");-->
+<!--      if (hash.substr(0, 1) === "#") {-->
+<!--        const position = $(window).scrollTop();-->
+<!--        window.location.replace(`#${hash.substr(1)}`);-->
+<!--        $(window).scrollTop(position);-->
+<!--      }-->
+<!--    });-->
+<!--  });-->
+<!--</script>-->
+<!--&lt;!&ndash;    <script src="static/js/modules/lazyLoad.js"></script>&ndash;&gt;-->
+
+<!--</body>-->
+<!--</html>-->
