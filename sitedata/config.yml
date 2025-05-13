@@ -1,6 +1,6 @@
-name: PaRiS 2024
-tagline: <br><br>Third Workshop on Personalization and Recommendations in Search (PaRiS)<br>at the SIGIR 2024
-date: Thu, July 18, 2024
+name: PaRiS 2025
+tagline: <br><br>Fourth Workshop on Personalization and Recommendations in Search (PaRiS)<br>at the KDD 2025
+date: Wed, Aug 6, 2025
 analytics: UA-
 logo:
   image: static/images/PaRiS.png
@@ -9,7 +9,7 @@ logo:
 # uncomment the following line to show the site title next to the logo image
 # site_title: MiniConf
 page_title:
-  prefix: 'PaRiS 2024'
+  prefix: 'PaRiS 2025'
   separator: ': '
 background_image: static/images/pexels-lacza-4544549.jpg
 organization: PaRis Organization Committee
