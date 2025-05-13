@@ -5,11 +5,11 @@ However, the research discussions around personalization and recommendation for 
 This workshop aims for researchers and practitioners from both academia and industry to engage in the discussions of algorithmic and system challenges in search personalization and effectively recommending in search context. It will include but not limited to the topics such as evaluation, query assistance, retrieval, ranking, context modeling, benchmark data and system efficiency for search personalization and recommendations within search contexts, for which more effective and efficient solutions can be shared and discussed. We expect the workshop to be of interest to large audiences in the research community of information retrieval and machine learning.
 
 
-### Important Dates for PaRiS 2024
+### Important Dates for PaRiS 2025
 
- * Submission deadline: 12th of May 2024
- * Author notification: 19th of May 2024
- * Workshop: 18th of July 2024
+ * Submission deadline: 1st of June 2025
+ * Author notification: 8th of June 2025
+ * Workshop: 6th of August 2025
 
 All deadlines are 11:59 pm, Anywhere on Earth (AoE).
 
@@ -19,10 +19,10 @@ paris-workshop at googlegroups dot com
 ### Organizers
   * **Sudarshan Lamkhede**, Netflix Research <a href="https://www.linkedin.com/in/sudarshanlamkhede/"><img src="static/images/linkedin-logo.png" alt="Sudarshan's LinkedIn Profile" width="20" padding="5"/></a> <a href="https://twitter.com/__sudarshan__"><img src="static/images/twitter-logo-square.png" alt="Sudarshan's Twitter" width="20" padding="5"/></a>
   * **Moumita Bhattacharya**, Netflix Research <a href="https://www.linkedin.com/in/moumitab/"><img src="static/images/linkedin-logo.png" alt="Moumita's LinkedIn Profile" width="20" padding="5"/></a> <a href="https://twitter.com/moumita_bh"><img src="static/images/twitter-logo-square.png" alt="Moumita's Twitter" width="20" padding="5"/></a>
-  * **Hongning Wang**, Dept. of Computer Science, Virginia University <a href="https://www.linkedin.com/in/hongning-wang-0a905540/"><img src="static/images/linkedin-logo.png" alt="Hongning's LinkedIn Profile" width="20" padding="5"/></a> <a href="https://twitter.com/feifeiM"><img src="static/images/twitter-logo-square.png" alt="Hongning's Twitter" width="20" padding="5"/></a>
-  * **Hamed Zamani**, Dept. of Computer Science, University of Massachusetts Amherst  <a href="https://www.linkedin.com/in/hamedzamani/"><img src="static/images/linkedin-logo.png" alt="Hamed's LinkedIn Profile" width="20" padding="5"/></a> <a href="https://twitter.com/HamedZamani"><img src="static/images/twitter-logo-square.png" alt="Hamed's Twitter" width="20" padding="5"/></a>
 
 ### Program Committee
+  * Hongning Wang ()
+  * Hamed Zamani (U. Mass)
   * Changsung Kang (Walmart)
   * Chihoon Lee (Facebook)
   * Alex Cozzi (EBay)

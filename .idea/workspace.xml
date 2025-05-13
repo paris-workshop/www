@@ -5,7 +5,12 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="b8ec75a9-0da9-47a1-b6c7-854e3ad9159e" name="Changes" comment="">
-      <change beforePath="$PROJECT_DIR$/docs/schedule.html" beforeDir="false" afterPath="$PROJECT_DIR$/docs/schedule.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cfp.md" beforeDir="false" afterPath="$PROJECT_DIR$/cfp.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/dates.md" beforeDir="false" afterPath="$PROJECT_DIR$/dates.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/docs/sigir2024/schedule.html" beforeDir="false" afterPath="$PROJECT_DIR$/docs/sigir2024/schedule.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/previous.md" beforeDir="false" afterPath="$PROJECT_DIR$/previous.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/welcome.md" beforeDir="false" afterPath="$PROJECT_DIR$/welcome.md" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -14,6 +19,9 @@
   </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="MarkdownSettingsMigration">
+    <option name="stateVersion" value="1" />
   </component>
   <component name="ProjectCodeStyleSettingsMigration">
     <option name="version" value="2" />
@@ -28,8 +36,9 @@
   </component>
   <component name="PropertiesComponent"><![CDATA[{
   "keyToString": {
+    "RunOnceActivity.OpenProjectViewOnStart": "true",
     "RunOnceActivity.ShowReadmeOnStart": "true",
-    "git-widget-placeholder": "Rebasing main",
+    "git-widget-placeholder": "main",
     "kotlin-language-version-configured": "true",
     "last_opened_file_path": "/Users/mbhattacharya/www/docs/sigir2024",
     "node.js.detected.package.eslint": "true",
@@ -93,14 +102,6 @@
       <option name="INPUT_FILE" value="" />
       <method v="2" />
     </configuration>
-  </component>
-  <component name="SharedIndexes">
-    <attachedChunks>
-      <set>
-        <option value="bundled-jdk-9823dce3aa75-28b599e66164-intellij.indexing.shared.core-IU-242.23726.103" />
-        <option value="bundled-js-predefined-d6986cc7102b-5c90d61e3bab-JavaScript-IU-242.23726.103" />
-      </set>
-    </attachedChunks>
   </component>
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
   <component name="TaskManager">
