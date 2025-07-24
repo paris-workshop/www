@@ -5,8 +5,11 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="b8ec75a9-0da9-47a1-b6c7-854e3ad9159e" name="Changes" comment="">
+      <change afterPath="$PROJECT_DIR$/static/images/speakers/Kelley_headshot.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/static/images/speakers/arnie-headshot.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/static/images/speakers/garg_headshot.jpg" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/schedule.md" beforeDir="false" afterPath="$PROJECT_DIR$/schedule.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/sitedata/speakers.csv" beforeDir="false" afterPath="$PROJECT_DIR$/sitedata/speakers.csv" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -49,6 +52,9 @@
     <key name="CopyFile.RECENT_KEYS">
       <recent name="$PROJECT_DIR$/docs/sigir2024" />
       <recent name="$PROJECT_DIR$/docs/SIGIR" />
+    </key>
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/static/images/speakers" />
     </key>
   </component>
   <component name="RunManager">

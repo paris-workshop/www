@@ -161,7 +161,7 @@
     <h2 class="text-center">Speakers</h2>
   </div>
 </div>
-<!--<div class="speakers">
+<div class="speakers">
   
 <div class="row p-4">
   <div class="col-md-12">
@@ -169,27 +169,27 @@
       <div class="card-header">
         <div class="row">
           <div class="col-md-2 col-sm-5">
-            <img src="static/images/speakers/Alane_headshot.jpg" width="100%" class="img-thumbnail" />
+            <img src="static/images/speakers/garg_headshot.jpg" width="100%" class="img-thumbnail" />
           </div>
           <div class="col-md-10 col-sm-6">
             <div class="m-3 text-muted">
               <h3>
                 <a href="speaker_1.html" class="main-title">
-                   Interactive Language Agents: Training, Evaluation, and Interface
+                  Personalized recommendations in high-stakes settings
                 </a>
               </h3>
             </div>
             <div class="m-3 text-muted">
               <span class="card-title h3">
-                Alane Suhr  /  UC Berkeley
+                Nikhil Garg  /  Cornell Tech
               </span>
             </div>
             <p></p>
             <div class="m-3">
-              The increasing capability of LLMs makes them appealing for adoption in labor-intensive human tasks. For example, significant efforts have recently focused on developing agents &#45;&#45; systems that map observations and instructions to executable actions &#45;&#45; and their benchmarks in real-world tasks like web navigation. In this talk, I will discuss recent work in training and improving such models through interactions with human users, and developing better evaluations for these agents, which in turn can be used to automatically improve agent performance without requiring any demonstration data or human annotation. However, in developing systems like this, and in applying LLMs and other large pre-trained models to real-world problems, we should be aware of their fundamental limitations; for example, their sensitivity to design considerations like prompt formatting. I will detail recent work where we find that LLMs can be incredibly sensitive to arbitrary design decisions, like choices of separators or multiple choice labels.
+              Recommendation and search systems are now used in high-stakes settings, including to help find jobs, schools, and partners. Building public interest recommender systems in such settings bring both individual-level (enabling exploration, diversity, data quality) and societal (fairness, capacity constraints, algorithmic monoculture) challenges. In this talk, I'll discuss our theoretical, empirical, and deployment work in tackling these challenges, including ongoing work on (a) applicant behavior and recommendations for the NYC HS match, (b) a platform to help discharge patients to long-term care facilities, (c) feed ranking algorithms on Bluesky for research paper recommendations. Finally, I’ll discuss our efforts to use sparse autoencoders to derive natural language concepts that can form the foundation of interpretable, explorable, and steerable recommender and search systems.
             </div>
             <div class="m-3">
-              <b>Speaker Bio:</b> Alane Suhr recently joined EECS and BAIR at UC Berkeley as an Assistant Professor. Alane's work focuses on building language-using systems that communicate with and learn from human users in collaborative, situated interactions. Prior to joining Berkeley, Alane completed a PhD in Computer Science at Cornell University / Cornell Tech and spent a year afterwards as a Young Investigator at the Allen Institute for AI.
+              <b>Speaker Bio:</b> Nikhil Garg is an Assistant Professor of Operations Research and Information Engineering at Cornell Tech as part of the Jacobs Institute. He uses algorithms, data science, and mechanism design approaches to study democracy, markets, and societal systems at large. Nikhil has received the NSF CAREER, INFORMS George Dantzig Dissertation Award, an honorable mention for the ACM SIGecom dissertation award, several other best paper awards, and Forbes 30 under 30 for Science. He received his PhD from Stanford University and has spent considerable collaborating with government agencies and non-profits.
             </div>
           </div>
         </div>
@@ -204,28 +204,27 @@
       <div class="card-header">
         <div class="row">
           <div class="col-md-2 col-sm-5">
-            <img src="static/images/speakers/Anne_headshot.png" width="100%" class="img-thumbnail" />
+            <img src="static/images/speakers/Kelley_headshot.png" width="100%" class="img-thumbnail" />
           </div>
           <div class="col-md-10 col-sm-6">
             <div class="m-3 text-muted">
               <h3>
                 <a href="speaker_2.html" class="main-title">
-                  More Like This…how? Combining engagement and semantic signals for recommending similar titles at Netflix
+                  The Person in Personalization
                 </a>
               </h3>
             </div>
             <div class="m-3 text-muted">
               <span class="card-title h3">
-                Anne Cocos  /  Netflix
+                Kelley Robinson  /  Netflix
               </span>
             </div>
             <p></p>
             <div class="m-3">
-              Quantifying similarity between entities to be ranked (e.g. movie titles) is a core capability of recommendation systems. The meaning of similarity can take several forms. Many systems rely on an engagement-based measure of similarity calculated via collaborative filtering &#45;&#45; if users co-engage with a pair of entities frequently enough, their embeddings should be similar. But leaning on co-engagement similarity alone can degrade system performance in recommending new or unpopular entities for which engagement data is scarce. In this talk I will present our work on SemanticGNN, a graph-based model which integrates semantic factors like genre, maturity level, and themes to enhance similarity measurements. SemanticGNN addresses challenges of relation imbalance and scaling that are common in training graph-based models for real world use cases. Our approach uses a relation-aware attention graph neural network (GNN) to balance diverse relation types in our graph. Additionally we develop a task-specific graph partitioning scheme to scale training to millions of nodes and billions of edges on multiple GPUs. Deployed within Netflix, this model has shown up to 35% improved performance on similarity judgment tasks.
-
+              Grounded in psychology and user research from Netflix’s first test of a conversational recommendation system, this session invites participants to step outside the technical box and consider personalization as a felt experience. We’ll explore the often-unseen but deeply revealing ways people express intent, interpret results, and find value in participating in algorithmically powered discovery. Drawing on years of collaboration with ML and AI teams, this talk offers nuanced perspectives and practical takeaways for building recommendation systems that meet users where they are to co-create more human-centered search and discovery experiences.
             </div>
             <div class="m-3">
-              <b>Speaker Bio:</b> Anne Cocos is an applied machine learning research scientist who has built ML-powered products and teams across multiple domains. She is currently a Senior Research Scientist at Netflix where she develops algorithms for Netflix search and recommendation systems. In previous roles she has led machine learning at an early-stage geospatial data startup, overseen the development of GlaxoSmithKline's biomedical knowledge graph for drug discovery, and run pediatric biomedical research projects at The Children's Hospital of Philadelphia. Anne completed her PhD in computer science at the University of Pennsylvania, where she was supported by the Google Ph.D. Fellowship and the AI2 Key Scientific Challenges award. Before focusing on artificial intelligence, Anne served as an intelligence officer in the U.S. Navy.
+              <b>Speaker Bio:</b> Kelley Robinson is a user experience researcher and strategist specializing in personalization, AI-driven experiences, and complex product ecosystems. A futurist at heart, pathologically curious, and optimistically invested in technology’s potential to serve each person and their unique needs, she delights in generating insights from quantitative data, qualitative research, and what lives between the lines. Her work bridges design, engineering, and data science to inspire innovation and help product teams make more human-centered decisions. Kelley holds a PhD in Social and Personality Psychology and completed a postdoctoral fellowship studying the science of social connection across romantic, platonic, and caregiving relationships. She began her tech career at Facebook (Meta), where she worked on public content and video experiences, including the launch and development of Facebook Live and real-time interaction between broadcasters and viewers. She is currently a Senior Researcher at Netflix, where she leads consumer insight efforts that shape algorithmically driven content discovery experiences, including personalized recommendations, explanatory evidence, and generative search.
             </div>
           </div>
         </div>
@@ -240,27 +239,27 @@
       <div class="card-header">
         <div class="row">
           <div class="col-md-2 col-sm-5">
-            <img src="static/images/speakers/Michael_headshot.png" width="100%" class="img-thumbnail" />
+            <img src="static/images/speakers/arnie-headshot.png" width="100%" class="img-thumbnail" />
           </div>
           <div class="col-md-10 col-sm-6">
             <div class="m-3 text-muted">
               <h3>
-                <a href="speaker_3.html" class="main-title">
-                  Personalized Generation: Research Challenges & Opportunities
+                <a href="speaker_UID.html" class="main-title">
+                  Exploration in Large Retrieval Models
                 </a>
               </h3>
             </div>
             <div class="m-3 text-muted">
               <span class="card-title h3">
-                Michael Bendersky  /  Google DeepMind
+                Arnab (Arnie) Bhadury  /  YouTube
               </span>
             </div>
             <p></p>
             <div class="m-3">
-              Generating content that is adapted to personal style and context is an emerging research area that has been steadily gaining attention from the research community. In this talk, I will review some of our ongoing work on improving the capabilities of large language models (LLMs) to generate personalized content. I will first introduce the general framework for personalized generation, and then delve deeper into how LLMs can be more effectively aligned with personal context. Finally, I will discuss the evaluation challenges inherent in personalized generation systems, and propose potential solutions to these challenges.
+              Large recommender systems power the world's biggest online media platforms, finding patterns in past engagement data in order to match billions of viewers to billions of pieces of content. This, however, requires effective exploration of an ever-increasing catalogue of items, and this talk explores some of our strategies and how they are applied in production settings. In this talk, I would dive deeper into 1) Uncertainty estimations and their applications in contextual bandit settings, 2) Item-centric exploration systems and 3) A set of metrics to measure RL based recommender systems and evaluate the impact of exploration against these metrics.
             </div>
             <div class="m-3">
-              <b>Speaker Bio:</b> Michael Bendersky is an Engineering Director at Google DeepMind. He is currently managing a team whose mission is improving algorithms, models, and metrics for information discovery across Google products. Michael holds a Ph.D. from the University of Massachusetts Amherst, and is a Distinguished Member of the ACM. Michael co-authored over 100 publications in the areas of information retrieval, natural language processing, machine learning, and artificial intelligence. He co-authored two books in the 'Foundations and Trends in Information Retrieval' series: 'Information Retrieval with Verbose Queries', and 'Search and Discovery in Personal Email Collections'
+              <b>Speaker Bio:</b> Arnab (Arnie) Bhadury (arniebh@google.com) is a Staff Machine Learning Engineer at YouTube Shorts and has been in the organizing committee of ACM RecSys for the past four years. Prior to YouTube, he worked on fitness recommendation at Peloton and news recommendation at Flipboard. His interests lie in large scale recommendations, content understanding and Bayesian machine learning. Arnie has been an active member of the recommender systems community, and has been an active PC member at RecSys, KDD, SIGIR and WWW. Arnie has also hosted several machine learning workshops and events in his home city of Vancouver, British Columbia, Canada
             </div>
           </div>
         </div>
@@ -275,28 +274,32 @@
       <div class="card-header">
         <div class="row">
           <div class="col-md-2 col-sm-5">
-            <img src="static/images/speakers/neginrahimi.jpeg" width="100%" class="img-thumbnail" />
+            <img src="image" width="100%" class="img-thumbnail" />
           </div>
           <div class="col-md-10 col-sm-6">
             <div class="m-3 text-muted">
               <h3>
-                <a href="speaker_4.html" class="main-title">
-                  Toward Interpretable Information Access Systems
+                <a href="speaker_UID.html" class="main-title">
+                  Affordability, Familiarity, and Novelty: An LLM-assisted Personalization Framework for Multi Vertical Retail Discovery
                 </a>
               </h3>
             </div>
             <div class="m-3 text-muted">
               <span class="card-title h3">
-                Negin Rahimi  /  University of Massachusetts Amherst
+                Raghav Saboo and Sudeep Das  /  DoorDash
               </span>
             </div>
             <p></p>
             <div class="m-3">
-              Information access systems provide substantial information to many human activities and decision making with different levels of sensitivity. Existing information seeking systems, including those that employ large language models (LLMs), face challenges in appropriately providing users with unbiased, diverse, and well-explained responses to explore the answer space.
- In this talk, I will present a summary of our works on interpretable information retrieval. I will provide a more detailed description of our efforts to enhance the intrinsic interpretability of models for providing users with diverse and unbiased results. Through enhanced interpretability, we have achieved comparable or even higher effectiveness. I conclude by highlighting the mutual benefits between interpretable information retrieval and generative AI systems.
+              Effective product discovery is crucial for user satisfaction and business growth in diverse marketplaces like DoorDash, which span grocery, retail, and other merchandise verticals. We present a personalization framework aimed at enhancing discovery by dynamically balancing three user value dimensions: price sensitivity (affordability), established tastes (familiarity), and the desire for new items (novelty).
+
+Our system combines efficient dense item retrieval with a learned multi-objective ranking model that optimizes for a combination of conversion, basket size, and exploration metrics. To tackle the challenges of personalizing for users with limited activity, particularly new and low-engagement individuals, we introduce an innovative personalization layer powered by a Large Language Model (LLM). This LLM analyzes rich, cross-vertical behavioral signals, including restaurant order history, to infer high-intent shopping missions and proactively surface relevant category collections. This approach enables meaningful personalization even when traditional item-level history is sparse.
+
+We will discuss the practicalities of scaling this framework in a production setting and share key learnings from our evaluations, illustrating how explicitly addressing utility trade-offs through multi-objective optimization and LLM-driven inference leads to significantly improved, diverse, and engaging discovery outcomes.
+
             </div>
             <div class="m-3">
-              <b>Speaker Bio:</b> Negin Rahimi is an Assistant Professor in UMass Amherst's Manning College of Information and Computer Sciences, where she is part of the Center for Intelligent Information Retrieval. Her research aims to build interactive and unbiased intelligent systems for information access through learning, user interaction, and enhanced interpretability. Her research is supported by Google Research Scholar, Adobe, and NSF awards including NSF CAREER award.
+              <b>Speaker Bio:</b> Raghav Saboo is a Staff Machine Learning Engineer  at DoorDash, leading Personalization related ML applications within the New Verticals business line. He was previously at Amazon, where his main focus was on developing the first set of large language models and distilled models for new language launches for Alexa AI. Prior to that Raghav worked as a Machine Learning consultant building multiple zero to one solutions for clients across industries. He holds a Masters from Duke University and a combined BEng and MEng from Imperial College London. <br><br><p><b>Sudeep Das</b> is the Head of  Machine Learning, New Business Verticals, at DoorDash,  leading Consumer ML, and Product Knowledge Graph ML, and  Fulfillment and Inventory ML teams within the New Verticals. He was previously a Machine Learning Leader at Netflix, where his main focus was on developing the next generation of machine learning algorithms to drive the personalization, discovery and search experience in the product. Sudeep has had more than twenty years of experience in machine learning applied to both large scale scientific problems, as well as in the industry. He is a frequent speaker at RecSys, SIGIR, ICML, ReWork, MLConf, Nordic Media Conference, and other machine learning conferences. He holds a PhD in Astrophysics from Princeton University.</p>
             </div>
           </div>
         </div>
@@ -305,83 +308,7 @@
   </div>
 </div>
 
-<div class="row p-4">
-  <div class="col-md-12">
-    <div class="card">
-      <div class="card-header">
-        <div class="row">
-          <div class="col-md-2 col-sm-5">
-            <img src="static/images/speakers/surya-teja-kallumadi-featured-800x800.jpeg" width="100%" class="img-thumbnail" />
-          </div>
-          <div class="col-md-10 col-sm-6">
-            <div class="m-3 text-muted">
-              <h3>
-                <a href="speaker_5.html" class="main-title">
-                  Task aware personalization in eCommerce search and recommendations
-                </a>
-              </h3>
-            </div>
-            <div class="m-3 text-muted">
-              <span class="card-title h3">
-                Surya Kallumadi  /  Lowe&#39;s
-              </span>
-            </div>
-            <p></p>
-            <div class="m-3">
-              Talk Abstract TBD
-            </div>
-            <div class="m-3">
-              <b>Speaker Bio:</b> Surya Kallumadi is a director of applied science at Lowe's, where he leads the machine learning initiatives in core search, recommendations, and personalization. Prior to that, he was with the Search Science team at The Home Depot, leading the search ranking initiative. In the past he worked with the data science teams at Flipkart and eBay in the fields of search and query understanding.
-            </div>
-          </div>
-        </div>
-      </div>
-    </div>
-  </div>
 </div>
-
-<div class="row p-4">
-  <div class="col-md-12">
-    <div class="card">
-      <div class="card-header">
-        <div class="row">
-          <div class="col-md-2 col-sm-5">
-            <img src="static/images/speakers/tejaswi-tennati.jpeg" width="100%" class="img-thumbnail" />
-          </div>
-          <div class="col-md-10 col-sm-6">
-            <div class="m-3 text-muted">
-              <h3>
-                <a href="speaker_6.html" class="main-title">
-                  Improving Relevance and Product Discoverability in Grocery search results
-                </a>
-              </h3>
-            </div>
-            <div class="m-3 text-muted">
-              <span class="card-title h3">
-                Tejaswi Tenneti  /  Instacart
-              </span>
-            </div>
-            <p></p>
-            <div class="m-3">
-              In this presentation, we delve into two innovative approaches designed to improve grocery search results by enhancing both relevance and discoverability. Our focus is on the development and application of a new product relevance classification model, alongside the strategic integration of LLMs to improve discoverability of novel products.
-                                                                                                                                Enhancing Search Relevance via ESCI Classification model:
-                                                                                                                                We use the ESCI classification model, which classifies the relationship between user queries and catalog products into seven clear groups: Exact Match, Strong Substitute, Weak Substitute, Close Complement, Remote Complement, Irrelevant, and Offensive. This model helps us handle search results better by allowing for more specific retrieval and smarter ranking strategies. It simplifies the way we show search results, clearly highlighting exact matches and strategically displaying the substitutes and complements to create a better shopping experience for users.
-                                                                                                                                Improving Product Discoverability with LLMs:
-                                                                                                                                To tackle the limitations of our previous Query Understanding (QU) models, particularly the challenges with sparse data for tail and non-grocery queries, we integrated Large Language Models into our search framework. LLMs have significantly advanced our capability to interpret queries and content, generating inspirational content that not only enriches the search results page but also drives conversions through enhanced relevance and user engagement.
-                                                                                                                                Conclusion:
-                                                                                                                                By leveraging the precise categorization capabilities of the ESCI model and the contextual understanding provided by LLMs, we were able to anticipate and meet consumer needs more effectively. This has led to improved engagement and incremental revenue.
-            </div>
-            <div class="m-3">
-              <b>Speaker Bio:</b> Tejaswi Tenneti is currently a Director of Machine Learning at Instacart, the north american leader in online grocery. Prior to Instacart, Tejaswi was a tech lead in machine learning teams at Apple and Oracle where he worked on various applications related to Search and Recommendations for local maps data and Enterprise. Tejaswi holds a BS from IIIT, Allahabad and an MS from Stanford University specializing in AI
-            </div>
-          </div>
-        </div>
-      </div>
-    </div>
-  </div>
-</div>
-
-</div>-->
 
 
     </div>
@@ -409,7 +336,7 @@
 <footer class="footer bg-light p-4">
     <div class="container">
         <p class="float-right"><a href="#">Back to Top</a></p>
-        <p class="text-center">© 2025 PaRis Organization Committee</p>
+        <p class="text-center">© 2024 PaRis Organization Committee</p>
     </div>
 </footer>
 
